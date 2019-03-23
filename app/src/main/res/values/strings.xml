@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">Best Dinner</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="appName">Best Dinner</string>
+    <string name="titleActivityMain">MainActivity</string>
     <string name="logInText">Zaloguj się</string>
     <string name="registerText">Zarejestruj się</string>
+    <string name="noConnectionTitle">Brak połączenia z Internetem</string>
+    <string name="noConnectionMsg">Sprawdź status połączenia z Internetem, a następnie uruchom ponownie aplikację.</string>
+    <string name="ok">OK</string>
+    <string name="loginFormField">Login:</string>
+    <string name="registerFormField">Hasło:</string>
 </resources>
