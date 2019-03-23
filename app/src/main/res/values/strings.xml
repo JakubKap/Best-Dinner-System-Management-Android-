@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Best Dinner</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="logInText">Zaloguj się</string>
+    <string name="registerText">Zarejestruj się</string>
 </resources>
