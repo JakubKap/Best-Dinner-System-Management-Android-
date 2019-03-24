@@ -23,79 +23,65 @@
         app:layout_constraintVertical_bias="0.392"
         app:srcCompat="@drawable/form_shape" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guidelineLoginText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="280dp" />
-
-    <EditText
-        android:id="@+id/loginTextField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress"
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toBottomOf="@+id/loginImageView"
         app:layout_constraintEnd_toEndOf="@+id/loginImageView"
-        app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="@+id/loginImageView"
-        app:layout_constraintTop_toTopOf="@+id/loginImageView"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintTop_toTopOf="@+id/loginImageView">
 
-    <EditText
-        android:id="@+id/passwordTextField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="@+id/loginImageView"
-        app:layout_constraintEnd_toEndOf="@+id/loginImageView"
-        app:layout_constraintHorizontal_bias="0.84"
-        app:layout_constraintStart_toStartOf="@+id/loginImageView"
-        app:layout_constraintTop_toTopOf="@+id/loginImageView"
-        app:layout_constraintVertical_bias="0.554" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guidelineRegisterText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="340dp" />
+            <TextView
+                android:id="@+id/loginTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginFormField"
+                android:textSize="@dimen/normal_button_font_size" />
 
-    <TextView
-        android:id="@+id/loginTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/loginFormField"
-        android:textSize="@dimen/normal_button_font_size"
-        app:layout_constraintBottom_toBottomOf="@+id/loginImageView"
-        app:layout_constraintEnd_toStartOf="@+id/loginTextField"
-        app:layout_constraintStart_toStartOf="@+id/loginImageView"
-        app:layout_constraintTop_toTopOf="@+id/loginImageView"
-        app:layout_constraintVertical_bias="0.19999999" />
+            <EditText
+                android:id="@+id/loginEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+        </TableRow>
 
-    <TextView
-        android:id="@+id/registerTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/registerFormField"
-        android:textSize="@dimen/normal_button_font_size"
-        app:layout_constraintBottom_toBottomOf="@+id/loginImageView"
-        app:layout_constraintEnd_toStartOf="@+id/passwordTextField"
-        app:layout_constraintStart_toStartOf="@+id/loginImageView"
-        app:layout_constraintTop_toTopOf="@+id/loginImageView"
-        app:layout_constraintVertical_bias="0.55" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/passwordTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/passwordFormField"
+                android:textSize="@dimen/normal_button_font_size" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+        </TableRow>
+
+    </TableLayout>
 
     <Button
-        android:id="@+id/checkLoginDataButton"
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/normal_button"
         android:text="@string/logInText"
         android:textColor="@color/white"
