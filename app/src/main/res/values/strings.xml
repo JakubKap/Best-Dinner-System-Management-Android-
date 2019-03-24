@@ -7,5 +7,12 @@
     <string name="noConnectionMsg">Sprawdź status połączenia z Internetem, a następnie uruchom ponownie aplikację.</string>
     <string name="ok">OK</string>
     <string name="loginFormField">Login:</string>
-    <string name="registerFormField">Hasło:</string>
+    <string name="passwordFormField">Hasło:</string>
+    <string name="nameFormField">Imię:</string>
+    <string name="surnameFormField">Nazwisko:</string>
+    <string name="emailFormField">Email:</string>
+    <string name="cityFormField">Miasto:</string>
+    <string name="streetFormField">Ulica:</string>
+    <string name="houseNumberFormField">Nr domu:</string>
+    <string name="apartmentNumberFormField">Nr lokalu:</string>
 </resources>
