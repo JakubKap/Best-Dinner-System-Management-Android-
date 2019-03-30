@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navLocalOrder"
+            android:icon="@drawable/menu_local_order_icon"
+            android:title="@string/navLocalOrder" />
+        <item
+            android:id="@+id/navHomeDelivery"
+            android:icon="@drawable/menu_home_delivery_order_icon"
+            android:title="@string/navHomeDelivery" />
+        <item
+            android:id="@+id/navInfo"
+            android:icon="@drawable/menu_info_icon"
+            android:title="@string/navInfo" />
+        <item
+            android:id="@+id/navMenu"
+            android:icon="@drawable/menu_icon"
+            android:title="@string/navMenu" />
+        <item
+            android:id="@+id/navOrderHistory"
+            android:icon="@drawable/menu_order_history_icon"
+            android:title="@string/navOrderHistory" />
+        <item
+            android:id="@+id/navAccount"
+            android:icon="@drawable/menu_account_info_icon"
+            android:title="@string/navAccount" />
+        <item
+            android:id="@+id/navAccountRecharge"
+            android:icon="@drawable/menu_account_recharge_icon"
+            android:title="@string/navAccountRecharge" />
+        <item
+            android:id="@+id/navGroupOrder"
+            android:icon="@drawable/menu_group_order_icon"
+            android:title="@string/navGroupOrder" />
+    </group>
+</menu>

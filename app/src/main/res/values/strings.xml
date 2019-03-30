@@ -19,4 +19,13 @@
     <string name="emptyLoginFieldsMsg">Sprawdź, czy pole loginu lub hasła nie jest puste.</string>
     <string name="wrongCredentialsTitle">Niepoprawne dane logowania</string>
     <string name="wrongCredentialsMsg">Sprawdź poprawność wprowadzonych pól.</string>
+    <string name="navLocalOrder">Zamów w lokalu</string>
+    <string name="navHomeDelivery">Zamów do domu</string>
+    <string name="navInfo">Informacje</string>
+    <string name="navMenu">Menu</string>
+    <string name="navOrderHistory">Historia zamówień</string>
+    <string name="navAccount">Moje konto</string>
+    <string name="navAccountRecharge">Doładuj konto</string>
+    <string name="navGroupOrder">Zamówienie grupowe</string>
+    <string name="clientHomeActionBarTittle">Start</string>
 </resources>
