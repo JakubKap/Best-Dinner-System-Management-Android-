@@ -15,4 +15,8 @@
     <string name="streetFormField">Ulica:</string>
     <string name="houseNumberFormField">Nr domu:</string>
     <string name="apartmentNumberFormField">Nr lokalu:</string>
+    <string name="emptyLoginFieldsTitle">Brak podanego loginu lub hasła</string>
+    <string name="emptyLoginFieldsMsg">Sprawdź, czy pole loginu lub hasła nie jest puste.</string>
+    <string name="wrongCredentialsTitle">Niepoprawne dane logowania</string>
+    <string name="wrongCredentialsMsg">Sprawdź poprawność wprowadzonych pól.</string>
 </resources>

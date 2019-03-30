@@ -26,19 +26,8 @@ public class StartActivity extends AppCompatActivity {
         ConnectionDetector cd = new ConnectionDetector(this);
         if(!cd.connected()){
             Log.d(logTag, "Brak połączenia z Internetem");
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-
-            builder.setTitle(getString(R.string.noConnectionTitle));
-            builder.setMessage(getString(R.string.noConnectionMsg));
-            builder.setPositiveButton(getString(R.string.ok),
-                    new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                           finishAffinity();
-                        }
-                    });
-
-            builder.show();
+            showMessage(getString(R.string.noConnectionTitle), getString(R.string.noConnectionMsg),
+                    getString(R.string.ok));
         }
 
         Button loginButton = findViewById(R.id.loginButton);
@@ -65,6 +54,22 @@ public class StartActivity extends AppCompatActivity {
                 //finish();
             }
         });
+    }
+
+    public void showMessage(String title, String message, String positiveButton){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.setPositiveButton(positiveButton,
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finishAffinity();
+                    }
+                });
+
+        builder.show();
     }
 
 }
