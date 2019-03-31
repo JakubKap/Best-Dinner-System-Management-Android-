@@ -28,4 +28,5 @@
     <string name="navAccountRecharge">Doładuj konto</string>
     <string name="navGroupOrder">Zamówienie grupowe</string>
     <string name="clientHomeActionBarTittle">Start</string>
+    <string name="clientSlogan">Zamów już\nteraz!</string>
 </resources>

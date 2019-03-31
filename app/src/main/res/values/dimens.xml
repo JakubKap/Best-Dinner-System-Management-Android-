@@ -1,5 +1,6 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="normal_button_font_size">15sp</dimen>
+    <dimen name="slogans_font_size">25sp</dimen>
 
 </resources>
