@@ -28,6 +28,7 @@
     <string name="navAccountRecharge">Doładuj konto</string>
     <string name="navGroupOrder">Zamówienie grupowe</string>
     <string name="clientHomeActionBarTittle">Start</string>
+    <string name="restaurantInfoActionBarTittle">Informacje o restauracji</string>
     <string name="clientSlogan">Zamów już\nteraz!</string>
     <string name="local_order_card_text">W lokalu</string>
     <string name="takeaway_card_text">Dostawa do \n domu</string>

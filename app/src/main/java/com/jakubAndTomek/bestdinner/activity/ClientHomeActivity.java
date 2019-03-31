@@ -1,5 +1,6 @@
 package com.jakubAndTomek.bestdinner.activity;
 
+import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -34,8 +35,13 @@ public class ClientHomeActivity extends AppCompatActivity {
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
-                        menuItem.setChecked(true);
+                        menuItem.setChecked(false);
                         drawerLayout.closeDrawers();
+                        int id = menuItem.getItemId();
+                        if (id == R.id.navInfo) {
+                            Intent intent = new Intent(ClientHomeActivity.this, RestaurantInfoActivity.class);
+                            startActivity(intent);
+                        }
                         return true;
                     }
                 });
