@@ -1,6 +1,13 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="normal_button_font_size">15sp</dimen>
-    <dimen name="slogans_font_size">25sp</dimen>
+    <dimen name="slogans_text_font_size">40sp</dimen>
+    <dimen name="cards_text_font_size">20sp</dimen>
+    <dimen name="client_home_card_size">150dp</dimen>
+    <dimen name="client_home_min_card_height_size">125dp</dimen>
+    <dimen name="client_home_card_padding">10dp</dimen>
+    <dimen name="client_home_card_radius">10dp</dimen>
+    <dimen name="client_home_card_margin">20dp</dimen>
+    <dimen name="client_home_card_menu_width">125dp</dimen>
 
 </resources>

@@ -27,7 +27,7 @@ public class Login {
         }
         else{
             //TODO docelowo zapytanie do bazy,
-            // a tymczasem sprawdzenie, czy (login == "klient" && password =="klient")
+            // takeaway_card tymczasem sprawdzenie, czy (login == "klient" && password =="klient")
 
             if(login.equals("klient") && password.equals("klient")){
                 Log.d(logTag, "Wprowadzono poprawne dane");

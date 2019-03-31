@@ -29,4 +29,8 @@
     <string name="navGroupOrder">Zamówienie grupowe</string>
     <string name="clientHomeActionBarTittle">Start</string>
     <string name="clientSlogan">Zamów już\nteraz!</string>
+    <string name="local_order_card_text">W lokalu</string>
+    <string name="takeaway_card_text">Dostawa do \n domu</string>
+    <string name="info_card_text">Informacje</string>
+    <string name="menu_card_text">Menu</string>
 </resources>

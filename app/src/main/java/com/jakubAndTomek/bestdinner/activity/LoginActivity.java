@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity implements EmptyFieldsListe
                 Log.d(logTag, "Kliknięto przycisk Zaloguj się");
 
                 //TODO w zależności od uprawnień zalogowanego użytkownika, należy przenieść
-                // go do stosownego ekranu (inny ekran dla klienta, a inny dla dostawcy)
+                // go do stosownego ekranu (inny ekran dla klienta, takeaway_card inny dla dostawcy)
 
 
                 String loginText = loginEditText.getText().toString();
